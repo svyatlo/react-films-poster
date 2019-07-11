@@ -15,7 +15,7 @@ class RenderFilms extends Component {
   }
 
   makeRequest() {
-    const url = 'http://react-cdp-api.herokuapp.com/movies/';
+    const url = 'https://react-cdp-api.herokuapp.com/movies/';
     const limit = 12;
     const { offset } = this.state;
 
